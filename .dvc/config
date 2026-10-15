@@ -1,7 +1,8 @@
 [core]
     remote = myazure
+    site_cache_dir = C:\Users\Lenovo\Desktop\my-dvc-project\.dvc\tmp\site_cache
 ['remote "myremote"']
-    url = gdrive://1XA2V3Xa4EcwAIIYpSVygzIXeBuoGC9jV
+    url = s3://mybucket/path
 ['remote "myazure"']
     url = azure://dvc
     account_name = wut2026
